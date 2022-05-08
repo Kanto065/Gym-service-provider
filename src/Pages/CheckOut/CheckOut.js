@@ -4,7 +4,7 @@ import './CheckOut.css';
 const CheckOut = () => {
     return (
         <div>
-            <h2>this is checkout page</h2>
+            <h2>this is checkout</h2>
         </div>
     );
 };
