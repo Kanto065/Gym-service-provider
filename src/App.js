@@ -11,6 +11,7 @@ import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
 import About from './Pages/About/About';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

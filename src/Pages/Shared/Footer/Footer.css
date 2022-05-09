@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.footer-title {
+    margin-right: 15px;
+}
