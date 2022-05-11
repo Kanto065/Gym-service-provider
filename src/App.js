@@ -10,6 +10,7 @@ import About from './Pages/About/About';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import Footer from './Pages/Shared/Footer/Footer';
 import NotFound from './Pages/Shared/NotFound/NotFound';
+import Blogs from './Pages/Blogs/Blogs';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/checkout' element={
           <RequireAuth>
