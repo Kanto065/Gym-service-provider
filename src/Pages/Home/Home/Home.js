@@ -1,9 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Home.css';
-import bannar1 from '../../images/bannar1.jpg';
-import bannar2 from '../../images/bannar2.jpg';
-import bannar3 from '../../images/bannar3.jpg';
+import Services from '../Services/Services';
+import Testimonials from '../Tesimonials/Testimonials';
 const Home = () => {
     return (
         <div>
@@ -11,7 +10,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 "
-                        src={bannar1}
+                        src="https://i.ibb.co/fCMzj75/bannar1.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -21,7 +20,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={bannar2}
+                        src="https://i.ibb.co/Sy1CyKX/bannar2.jpg"
                         alt="Second slide"
                     />
 
@@ -32,7 +31,7 @@ const Home = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={bannar3}
+                        src="https://i.ibb.co/GkZcJVN/bannar3.jpg"
                         alt="Third slide"
                     />
 
@@ -41,6 +40,10 @@ const Home = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+
+            <Services></Services>
+
+            <Testimonials></Testimonials>
         </div>
     );
 };

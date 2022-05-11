@@ -1,0 +1,23 @@
+.service-card {
+    display: flex;
+    border: 2px solid rgb(33, 37, 41);
+}
+
+.service-card img {
+    width: 50%;
+}
+
+.info-container {
+    padding: 20px;
+}
+
+.book-btn {
+    border: 1px solid rgb(33, 37, 41);
+    background-color: rgb(33, 37, 41);
+    color: aliceblue;
+    padding: 10px;
+}
+
+.book-btn:hover {
+    background-color: black;
+}

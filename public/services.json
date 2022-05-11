@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "workout routine by jhon",
+        "price": 300,
+        "description": "make a worout plan basis on your fitness condition",
+        "img": "https://i.ibb.co/TcBSXs4/service1.png"
+    },
+    {
+        "id": 2,
+        "name": "diet plan by jhon",
+        "price": 500,
+        "description": "make a diet paln basis on your workout and fitness condition",
+        "img": "https://i.ibb.co/hg0FF2C/service2.png"
+    },
+    {
+        "id": 3,
+        "name": "1 on 1 meeting with jhon",
+        "price": 500,
+        "description": "consult with me, understand what you need now",
+        "img": "https://i.ibb.co/Db5mWx6/service3.png"
+    },
+    {
+        "id": 4,
+        "name": "visit jhon's place",
+        "price": "free",
+        "description": "visit jhon place, see instruments, talk with jhon",
+        "img": "https://i.ibb.co/QkxyP6z/service4.png"
+    }
+]

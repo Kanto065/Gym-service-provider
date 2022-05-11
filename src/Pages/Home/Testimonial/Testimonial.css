@@ -1,0 +1,9 @@
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-container img {
+    width: 50%;
+}

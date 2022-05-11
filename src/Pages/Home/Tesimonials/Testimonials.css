@@ -1,0 +1,24 @@
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width:576px) {
+    .testimonials-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

@@ -1,30 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Form from 'react-bootstrap/Form';
-// import Button from 'react-bootstrap/Button';
-// import auth from './firebase.init';
 import Header from './Pages/Shared/Header/Header';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/Home/Home';
 import CheckOut from './Pages/CheckOut/CheckOut';
 import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
 import About from './Pages/About/About';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import Footer from './Pages/Shared/Footer/Footer';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
 function App() {
-  // const handleEmailBlur = (event) => {
-  //   console.log(event.target.value);
-  // }
-  // const handlePasswordBlur = (event) => {
-  //   console.log(event.target.value);
-  // }
-  // const handleFormSubmit = (event) => {
-  //   console.log('form submitted');
-  //   event.preventDefault();
-  // }
 
   return (
     <div>
@@ -40,6 +28,7 @@ function App() {
         </Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

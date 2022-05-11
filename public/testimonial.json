@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "krish",
+        "comment": "very good trainner",
+        "img": "https://i.ibb.co/0Z5bczc/player-1.png"
+    },
+    {
+        "id": 2,
+        "name": "steven",
+        "comment": "very good trainner",
+        "img": "https://i.ibb.co/dBCDpT3/player-3.png"
+    },
+    {
+        "id": 3,
+        "name": "methew",
+        "comment": "very good trainner",
+        "img": "https://i.ibb.co/C9Dt0kV/player-4.png"
+    }
+]
