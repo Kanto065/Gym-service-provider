@@ -4,27 +4,27 @@
         "name": "workout routine by jhon",
         "price": 300,
         "description": "make a worout plan basis on your fitness condition",
-        "img": "https://i.ibb.co/TcBSXs4/service1.png"
+        "img": "https://i.ibb.co/dmVk1Nh/photo-1470167290877-7d5d3446de4c.jpg"
     },
     {
         "id": 2,
         "name": "diet plan by jhon",
         "price": 500,
         "description": "make a diet paln basis on your workout and fitness condition",
-        "img": "https://i.ibb.co/hg0FF2C/service2.png"
+        "img": "https://i.ibb.co/TTSD9kP/photo-1561043433-aaf687c4cf04.jpg"
     },
     {
         "id": 3,
         "name": "1 on 1 meeting with jhon",
         "price": 500,
         "description": "consult with me, understand what you need now",
-        "img": "https://i.ibb.co/Db5mWx6/service3.png"
+        "img": "https://i.ibb.co/xFYNJt9/photo-1604480132715-bd70038b74df.jpg"
     },
     {
         "id": 4,
         "name": "visit jhon's place",
         "price": "free",
         "description": "visit jhon place, see instruments, talk with jhon",
-        "img": "https://i.ibb.co/QkxyP6z/service4.png"
+        "img": "https://i.ibb.co/Y8RRLKp/premium-photo-1664299938370-5774f3b3f8f5.jpg"
     }
 ]
