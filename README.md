@@ -1,6 +1,6 @@
 # Muscle Rehab with john
 
-live site [Click here](https://muscle-rehab-with-john.web.app/login).
+live site [Click here](https://muscle-rehab-with-john.web.app/).
 
 ## features and functionality
 
