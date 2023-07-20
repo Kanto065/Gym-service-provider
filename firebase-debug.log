@@ -1,0 +1,73 @@
+[debug] [2023-07-20T13:02:26.407Z] ----------------------------------------------------------------------
+[debug] [2023-07-20T13:02:26.409Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kanto\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-07-20T13:02:26.409Z] CLI Version:   12.4.5
+[debug] [2023-07-20T13:02:26.409Z] Platform:      win32
+[debug] [2023-07-20T13:02:26.410Z] Node Version:  v18.12.1
+[debug] [2023-07-20T13:02:26.411Z] Time:          Thu Jul 20 2023 19:02:26 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-07-20T13:02:26.411Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-20T13:02:26.499Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-20T13:02:26.499Z] > authorizing via signed-in user (kanto065@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Complete Web Development Course With Jhankar Mahbub\Projects\react\assignment-10-gym
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-20T13:03:56.854Z] Using project from CLI flag: muscle-rehab-with-john
+[debug] [2023-07-20T13:03:56.855Z] > refreshing access token with scopes: []
+[debug] [2023-07-20T13:03:56.859Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-20T13:03:56.861Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-20T13:03:57.230Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-20T13:03:57.230Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-20T13:03:57.231Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/muscle-rehab-with-john [none]
+[debug] [2023-07-20T13:03:57.603Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/muscle-rehab-with-john 401
+[debug] [2023-07-20T13:03:57.603Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/muscle-rehab-with-john {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-07-20T13:03:57.604Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-20T13:03:57.881Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\kanto\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\kanto\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project muscle-rehab-with-john. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-07-20T13:04:21.939Z] ----------------------------------------------------------------------
+[debug] [2023-07-20T13:04:21.941Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kanto\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2023-07-20T13:04:21.942Z] CLI Version:   12.4.5
+[debug] [2023-07-20T13:04:21.942Z] Platform:      win32
+[debug] [2023-07-20T13:04:21.942Z] Node Version:  v18.12.1
+[debug] [2023-07-20T13:04:21.943Z] Time:          Thu Jul 20 2023 19:04:21 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-07-20T13:04:21.943Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-20T13:04:22.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-20T13:04:22.054Z] > authorizing via signed-in user (kanto065@gmail.com)
+[debug] [2023-07-20T13:04:22.056Z] > refreshing access token with scopes: []
+[debug] [2023-07-20T13:04:22.058Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-20T13:04:22.059Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-20T13:04:22.399Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-07-20T13:04:22.399Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-20T13:04:22.400Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2023-07-20T13:04:22.710Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-07-20T13:04:22.710Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-07-20T13:04:22.712Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-07-20T13:04:22.974Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\kanto\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\kanto\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
